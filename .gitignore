@@ -1,0 +1,12 @@
+# 忽略编译生成的文件
+__pycache__/
+*.pyc
+
+# 忽略开发工具生成的文件和目录
+.vscode/
+.idea/
+
+# 忽略数据和其他敏感信息
+# data/
+secrets/
+app/

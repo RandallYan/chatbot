@@ -1,0 +1,41 @@
+Q: How to register a new account?
+A: Click the "Register" button at the top right of the website, then fill in the relevant information and set a password as prompted. After completing this step, you will receive a verification email. Click the link in the email to activate your account.
+
+Q: What should I do if I forget my password?
+A: Click the "Forgot Password" link on the login page and enter your email address. We will send you an email with a reset password link. Click the link and follow the prompts.
+
+Q: How to change account information?
+A: Log in to your account and click "My Account" to change your personal information, shipping address, etc.
+
+Q: How to place an order?
+A: Browse the products and add the desired items to your shopping cart. When you are ready to check out, click the shopping cart icon and select your delivery address, payment method, and shipping method. After confirming the order details, click "Submit Order".
+
+Q: Which payment methods are supported?
+A: We support various payment methods such as Alipay, WeChat Pay, UnionPay Online Payment, and credit card payment.
+
+Q: How to check the order status?
+A: Log in to your account, click "My Orders", and you can view all orders and their current status on this page.
+
+Q: How to cancel an order?
+A: Before the order is shipped, you can log in to your account, go to the "My Orders" page and cancel the order. If the order has been shipped, you need to contact customer service for assistance.
+
+Q: How to apply for a refund?
+A: Log in to your account, go to the "My Orders" page, select the order you want to refund, and click "Apply for Refund". Follow the prompts on the page to fill in the refund reason and amount. After submitting the application, we will process your request within 1-3 working days.
+
+Q: What is the return policy?
+A: Within 7 days of receiving the product, if the product is unused and the packaging is intact, you can apply for a return. Some special products may not be eligible for returns, please check the return policy on the product details page before purchasing.
+
+Q: Where will the refund be returned to?
+A: The refund will be returned to your payment account.
+
+Q: Which provinces are supported for delivery?
+A: We support delivery to most provinces in China, including Beijing, Shanghai, Tianjin, Chongqing, Hebei, Shanxi, Liaoning, Jilin, Heilongjiang, Jiangsu, Zhejiang, Anhui, Fujian, Jiangxi, Shandong, Henan, Hubei, Hunan, Guangdong, Hainan, Sichuan, Guizhou, Yunnan, Shaanxi, Gansu, Qinghai, Taiwan, Inner Mongolia, Guangxi, Tibet, Ningxia, and Xinjiang.
+
+Q: What is the delivery time?
+A: In general, orders in most cities will be delivered within 2-3 working days, while remote areas may take 5-7 working days. The specific delivery time may vary depending on the order, shipping address, and logistics company.
+
+Q: How to check the logistics information?
+A: After the order is shipped, you can view the logistics number on the "My Orders" page. Click the "View Logistics" button for the corresponding order and enter the logistics number to check the logistics details.
+
+Q: Which courier companies are available?
+A: We cooperate with many well-known courier companies such as SF Express, YTO Express, STO Express, Yunda
