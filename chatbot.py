@@ -7,19 +7,17 @@ from langchain.agents import initialize_agent, AgentType
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 
-class ChatbotAgent:
+class Chatbot:
     def __init__(self, tools=None):
         self.verbose = True
         self.tools = tools or []
         self.history = []
-        self.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-        self.llm = ChatOpenAI(temperature=0)
         self.agent_chain = initialize_agent(
             tools=self.tools, 
-            llm=self.llm, 
+            llm=ChatOpenAI(temperature=0), 
             agent=AgentType.CHAT_CONVERSATIONAL_REACT_DESCRIPTION, 
-            verbose=True, 
-            memory=self.memory,
+            verbose=self.verbose, 
+            memory=ConversationBufferMemory(memory_key="chat_history", return_messages=True),
             max_iterations=2, 
             max_turns=2
         )
@@ -46,7 +44,7 @@ class ChatbotAgent:
             return transcript['text']
 
     def launch(self):
-        with gr.Blocks(css="#chatbot{height:800px} .overflow-y-auto{height:800px}") as demo:
+        with gr.Blocks(css="#chatbot{height:600px} .overflow-y-auto{height:600px}") as demo:
             chatbot = gr.Chatbot(elem_id="chatbot")
             state = gr.State([])
 
@@ -72,4 +70,3 @@ def play_voice(text):
     speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
 
     speech_synthesizer.speak_text_async(text)
-
