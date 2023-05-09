@@ -12,7 +12,7 @@ This is a chatbot program that uses natural language processing to interact with
 Before running the program, make sure to install the required packages by running:
 
 ```pip
-pip install openai azure-cognitiveservices-speech gradio langchain
+pip3 install -r requirements.txt
 ```
 
 You will also need to set up Azure Cognitive Services Speech by creating a Speech resource in the Azure Portal and obtaining a subscription key and region.
