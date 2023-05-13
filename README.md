@@ -12,8 +12,22 @@ This is a chatbot program that uses natural language processing to interact with
 Before running the program, make sure to install the required packages by running:
 
 ```pip
-pip install openai azure-cognitiveservices-speech gradio langchain
+pip3 install -r requirements.txt
 ```
+
+To use this demo chatbot, you will need to set up the following environment variables:
+
+OPENAIKEY: Your OpenAI API key
+AZURE_KEY: Your Azure Cognitive Services Speech API key
+AZURE_REGION: The region for your Azure Cognitive Services Speech API key
+
+```bash
+export OPENAIKEY=<your-openai-api-key>
+export AZURE_KEY=<your-azure-speech-api-key>
+export AZURE_REGION=<your-azure-speech-api-region>
+```
+
+Make sure to replace <your-openai-api-key>, <your-azure-speech-api-key> and <your-azure-speech-api-region> with your actual API keys.
 
 You will also need to set up Azure Cognitive Services Speech by creating a Speech resource in the Azure Portal and obtaining a subscription key and region.
 
